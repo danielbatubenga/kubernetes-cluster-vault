@@ -1,7 +1,7 @@
 # kubernetes-cluster-vault
 
 ## Vault
-O Vault é um sistema de gerenciamento de secrets e criptografia baseado em identidade. Para mais informações sobre o Vault, consulte a[documentação do Hashicorp Vault.](https://www.vaultproject.io/).
+O Vault é um sistema de gerenciamento de secrets e criptografia baseado em identidade. Para mais informações sobre o Vault, consulte a [documentação do Hashicorp Vault.](https://www.vaultproject.io/)
 
 ## Download do project
 
@@ -11,7 +11,7 @@ cd kubernetes-cluster-vault
 ```
 
 ## Setup
-[Este](https://github.com/danielbatubenga/kubernetes-cluster-vault/blob/main/kind-config.yaml) é o exemplo do cluster kubernetes no kind com 3 workers.
+[Este](https://github.com/danielbatubenga/kubernetes-cluster-vault/blob/main/kind-config.yaml) é o exemplo de configuração do cluster kubernetes no kind com 3 workers.
 
 crie o cluster 
 
