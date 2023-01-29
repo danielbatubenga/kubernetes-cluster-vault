@@ -48,7 +48,9 @@ vault unseal
 kubectl exec vault-0 -- vault operator unseal $VAULT_UNSEAL_KEY
 ´´´
 
-Logando no vault pelo CLI.
+Logando no vault
+
+
 
 ```
 kubectl exec -it vault-0 -- /bin/sh
