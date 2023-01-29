@@ -46,14 +46,11 @@ vault unseal
 
 ```
 kubectl exec vault-0 -- vault operator unseal $VAULT_UNSEAL_KEY
-´´´
-
-Logando no vault
-
-
+```
+Logando no vault pelo CLI
 
 ```
 kubectl exec -it vault-0 -- /bin/sh
-´´´
+```
 
 A partir daqui você já pode criar os seus segredos e fazer as suas integrações.
